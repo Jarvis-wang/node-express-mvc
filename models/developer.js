@@ -55,7 +55,17 @@ const DeveloperSchema = new mongoose.Schema({
     type: String,
     required: true,
     default: 'http://yourwebsite.com'
-  }
+  },
+  phone:{
+    type: String
+  },
+age:{
+  type:Number
+ 
+  
+
+}
+
 
 })
 module.exports = mongoose.model('Developer', DeveloperSchema)
